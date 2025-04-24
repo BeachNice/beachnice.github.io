@@ -10,17 +10,12 @@
         <script async src="https://ga.jspm.io/npm:es-module-shims@1.7.1/dist/es-module-shims.js"></script>
 </head>
 <body>
-    <div class="window">
-        <div class="text-container">
-            <div class="text-wrapper" id="text-box">  <!-- Added an ID for targeting with JS -->
             <model-viewer src="Beachnice_Shiny.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="0" environment-image="water.png" skybox-image="water.png" exposure="1.22" auto-rotate>
                 <div class="progress-bar hide" slot="progress-bar">
                 <div class="update-bar"></div>
                 </div>
                 </model-viewer>
-                </a>  <!-- Added text for click event -->
-            </div>
-        </div>
+            
     </div>
 </body>
 </html>
